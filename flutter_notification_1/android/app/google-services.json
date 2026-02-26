@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "579438374253",
+    "project_id": "udemy-flutter-chat-app-f07a5",
+    "storage_bucket": "udemy-flutter-chat-app-f07a5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579438374253:android:eda36bfb42d7bb42977e64",
+        "android_client_info": {
+          "package_name": "com.example.flutter_notification_1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579438374253-ss3nr5e1v43roe5d5k170sqojgfjvchq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA07GZeMLpdVkFapLfOADj4BLJVxY66XMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579438374253-ss3nr5e1v43roe5d5k170sqojgfjvchq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "579438374253-q65t7df3b5q4qjp27cfe8u1ahlijrigd.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterNotification1"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

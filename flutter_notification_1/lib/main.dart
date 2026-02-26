@@ -1,6 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
+import "package:flutter_notification_1/screens/auth.dart";
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(const MainApp());
 }
 
@@ -17,7 +22,7 @@ class MainApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 63, 17, 177),
         ),
       ),
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
+      home: const AuthScreen(),
     );
   }
 }

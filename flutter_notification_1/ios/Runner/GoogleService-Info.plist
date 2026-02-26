@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>579438374253-q65t7df3b5q4qjp27cfe8u1ahlijrigd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.579438374253-q65t7df3b5q4qjp27cfe8u1ahlijrigd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyASdaevQpqtc5kGyFT_P1rQHOuzZJsjLCA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>579438374253</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.flutterNotification1</string>
+	<key>PROJECT_ID</key>
+	<string>udemy-flutter-chat-app-f07a5</string>
+	<key>STORAGE_BUCKET</key>
+	<string>udemy-flutter-chat-app-f07a5.firebasestorage.app</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:579438374253:ios:b4e746b47f0f3f67977e64</string>
+</dict>
+</plist>
