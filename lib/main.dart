@@ -1,7 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:flutter_notification_1/screens/auth.dart';
+import 'package:flutter_notification_1/screens/chat.dart';
 import 'firebase_options.dart';
-import "package:flutter_notification_1/screens/auth.dart";
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,7 +24,16 @@ class MainApp extends StatelessWidget {
           seedColor: const Color.fromARGB(255, 63, 17, 177),
         ),
       ),
-      home: const AuthScreen(),
+      home: StreamBuilder(
+        stream: FirebaseAuth.instance.authStateChanges(),
+        builder: (ctx, snapshot) {
+          if (snapshot.hasData) {
+            return const ChatScreen();
+          }
+
+          return const AuthScreen();
+        },
+      ),
     );
   }
 }
